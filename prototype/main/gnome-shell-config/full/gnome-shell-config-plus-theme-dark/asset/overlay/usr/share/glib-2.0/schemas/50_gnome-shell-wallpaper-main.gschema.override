@@ -1,0 +1,9 @@
+
+
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/manjaro/abstract-l.png'
+picture-uri-dark='file:///usr/share/backgrounds/manjaro/abstract-l.png'
+
+
+[org.gnome.desktop.screensaver]
+picture-uri='file:///usr/share/backgrounds/manjaro/abstract-l.png'
