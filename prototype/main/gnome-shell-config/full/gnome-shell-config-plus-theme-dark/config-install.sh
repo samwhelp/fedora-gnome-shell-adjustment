@@ -45,7 +45,7 @@ main_config_install () {
 
 	gnome_shell_favorite_apps_config_install
 
-	gnome_shell_extension_dash_to_dock_config_install
+	#gnome_shell_extension_dash_to_dock_config_install
 
 	gnome_shell_keybind_main_config_install
 

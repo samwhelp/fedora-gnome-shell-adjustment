@@ -45,7 +45,7 @@ main_prototype_install () {
 
 	gnome_shell_favorite_apps_prototype_install
 
-	gnome_shell_extension_dash_to_dock_prototype_install
+	#gnome_shell_extension_dash_to_dock_prototype_install
 
 	gnome_shell_keybind_main_prototype_install
 
