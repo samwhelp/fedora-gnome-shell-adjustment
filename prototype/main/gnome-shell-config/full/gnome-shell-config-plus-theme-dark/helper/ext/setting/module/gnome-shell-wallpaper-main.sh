@@ -142,13 +142,13 @@ gnome_shell_wallpaper_main_settings_set_all () {
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/manjaro/abstract-l.png'"
-	gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/manjaro/abstract-l.png'
+	util_error_echo "gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/fedora-workstation/montclair_dark.webp'"
+	gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/fedora-workstation/montclair_dark.webp'
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.background picture-uri-dark 'file:///usr/share/backgrounds/manjaro/abstract-l.png'"
-	gsettings set org.gnome.desktop.background picture-uri-dark 'file:///usr/share/backgrounds/manjaro/abstract-l.png'
+	util_error_echo "gsettings set org.gnome.desktop.background picture-uri-dark 'file:///usr/share/backgrounds/fedora-workstation/montclair_dark.webp'"
+	gsettings set org.gnome.desktop.background picture-uri-dark 'file:///usr/share/backgrounds/fedora-workstation/montclair_dark.webp'
 
 
 
@@ -158,8 +158,8 @@ gnome_shell_wallpaper_main_settings_set_all () {
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/manjaro/abstract-l.png'"
-	gsettings set org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/manjaro/abstract-l.png'
+	util_error_echo "gsettings set org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/fedora-workstation/montclair_dark.webp'"
+	gsettings set org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/fedora-workstation/montclair_dark.webp'
 
 
 
