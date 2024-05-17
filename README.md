@@ -21,7 +21,7 @@
 
 | Adjustment |
 | -------- |
-| [Fedora Gnome Shell](https://github.com/samwhelp/fedora-gnome-shell-adjustment/tree/main/prototype/main/kde-config/locale/en_us/Breeze-Dark) |
+| [Fedora Gnome Shell](https://github.com/samwhelp/fedora-gnome-shell-adjustment/tree/main/prototype/main) |
 
 
 
