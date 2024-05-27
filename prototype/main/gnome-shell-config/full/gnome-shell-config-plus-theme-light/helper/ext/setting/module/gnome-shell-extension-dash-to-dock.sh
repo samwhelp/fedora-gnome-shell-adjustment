@@ -6,10 +6,10 @@
 
 gnome_shell_extension_dash_to_dock_var_init () {
 
-	THE_GNOME_SHELL_EXTENSION_UBUNTU_DOCK_GSCHEMA_OVERRIDE_FILE_NAME="50_gnome-shell-extension-dash-to-dock.gschema.override"
+	THE_GNOME_SHELL_EXTENSION_DASH_TO_DOCK_GSCHEMA_OVERRIDE_FILE_NAME="50_gnome-shell-extension-dash-to-dock.gschema.override"
 
-	THE_GNOME_SHELL_EXTENSION_UBUNTU_DOCK_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH="${THE_SOURCE_GSCHEMA_DIR_PATH}/${THE_GNOME_SHELL_EXTENSION_UBUNTU_DOCK_GSCHEMA_OVERRIDE_FILE_NAME}"
-	THE_GNOME_SHELL_EXTENSION_UBUNTU_DOCK_TARGET_GSCHEMA_OVERRIDE_FILE_PATH="${THE_TARGET_GSCHEMA_DIR_PATH}/${THE_GNOME_SHELL_EXTENSION_UBUNTU_DOCK_GSCHEMA_OVERRIDE_FILE_NAME}"
+	THE_GNOME_SHELL_EXTENSION_DASH_TO_DOCK_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH="${THE_SOURCE_GSCHEMA_DIR_PATH}/${THE_GNOME_SHELL_EXTENSION_DASH_TO_DOCK_GSCHEMA_OVERRIDE_FILE_NAME}"
+	THE_GNOME_SHELL_EXTENSION_DASH_TO_DOCK_TARGET_GSCHEMA_OVERRIDE_FILE_PATH="${THE_TARGET_GSCHEMA_DIR_PATH}/${THE_GNOME_SHELL_EXTENSION_DASH_TO_DOCK_GSCHEMA_OVERRIDE_FILE_NAME}"
 
 	return 0
 
@@ -36,11 +36,11 @@ gnome_shell_extension_dash_to_dock_var_dump () {
 	util_debug_echo "##"
 	util_debug_echo
 
-	util_debug_echo "THE_GNOME_SHELL_EXTENSION_UBUNTU_DOCK_GSCHEMA_OVERRIDE_FILE_NAME=${THE_GNOME_SHELL_EXTENSION_UBUNTU_DOCK_GSCHEMA_OVERRIDE_FILE_NAME}"
+	util_debug_echo "THE_GNOME_SHELL_EXTENSION_DASH_TO_DOCK_GSCHEMA_OVERRIDE_FILE_NAME=${THE_GNOME_SHELL_EXTENSION_DASH_TO_DOCK_GSCHEMA_OVERRIDE_FILE_NAME}"
 	util_debug_echo
 
-	util_debug_echo "THE_GNOME_SHELL_EXTENSION_UBUNTU_DOCK_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH=${THE_GNOME_SHELL_EXTENSION_UBUNTU_DOCK_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH}"
-	util_debug_echo "THE_GNOME_SHELL_EXTENSION_UBUNTU_DOCK_TARGET_GSCHEMA_OVERRIDE_FILE_PATH=${THE_GNOME_SHELL_EXTENSION_UBUNTU_DOCK_TARGET_GSCHEMA_OVERRIDE_FILE_PATH}"
+	util_debug_echo "THE_GNOME_SHELL_EXTENSION_DASH_TO_DOCK_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH=${THE_GNOME_SHELL_EXTENSION_DASH_TO_DOCK_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH}"
+	util_debug_echo "THE_GNOME_SHELL_EXTENSION_DASH_TO_DOCK_TARGET_GSCHEMA_OVERRIDE_FILE_PATH=${THE_GNOME_SHELL_EXTENSION_DASH_TO_DOCK_TARGET_GSCHEMA_OVERRIDE_FILE_PATH}"
 	util_debug_echo
 
 	util_debug_echo
@@ -257,8 +257,8 @@ gnome_shell_extension_dash_to_dock_settings_set_all () {
 
 
 	#util_error_echo
-	#util_error_echo "gsettings set org.gnome.shell favorite-apps \"['org.gnome.Nautilus.desktop', 'firefox.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Settings.desktop']\""
-	#gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop', 'firefox.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Settings.desktop']"
+	#util_error_echo "gsettings set org.gnome.shell favorite-apps \"['org.gnome.Nautilus.desktop', 'firefox_firefox.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Settings.desktop']\""
+	#gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop', 'firefox_firefox.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Settings.desktop']"
 
 
 
@@ -277,9 +277,9 @@ gnome_shell_extension_dash_to_dock_settings_set_all () {
 
 gnome_shell_extension_dash_to_dock_gschema_put_all () {
 
-	local source_gschema_override_file_path="${THE_GNOME_SHELL_EXTENSION_UBUNTU_DOCK_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH}"
+	local source_gschema_override_file_path="${THE_GNOME_SHELL_EXTENSION_DASH_TO_DOCK_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH}"
 
-	local target_gschema_override_file_path="${THE_GNOME_SHELL_EXTENSION_UBUNTU_DOCK_TARGET_GSCHEMA_OVERRIDE_FILE_PATH}"
+	local target_gschema_override_file_path="${THE_GNOME_SHELL_EXTENSION_DASH_TO_DOCK_TARGET_GSCHEMA_OVERRIDE_FILE_PATH}"
 
 	#util_error_echo "${source_gschema_override_file_path}"
 
