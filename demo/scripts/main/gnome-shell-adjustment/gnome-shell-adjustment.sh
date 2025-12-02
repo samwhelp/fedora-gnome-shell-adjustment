@@ -365,6 +365,13 @@ mod_gnome_shell_config_for_empty_switch_windows () {
 
 
 
+	#gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "['<Super>Escape']"
+
+	gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "[]"
+
+
+
+
 	return 0
 }
 
