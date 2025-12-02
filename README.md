@@ -37,7 +37,7 @@
 | [Gnome Shell Adjustment](https://samwhelp.github.io/gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/gnome-shell-adjustment) |
 | [Debian Gnome Shell Adjustment](https://samwhelp.github.io/debian-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/debian-gnome-shell-adjustment) |
 | [Ubuntu Gnome Shell Adjustment](https://samwhelp.github.io/ubuntu-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment) |
-| [Fedora Gnome Shell Adjustment](https://samwhelp.github.io/fedora-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-gnome-shell-adjustment) |
+| [Ultramarine Gnome Shell Adjustment](https://samwhelp.github.io/ultramarine-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/ultramarine-gnome-shell-adjustment) |
 | [Archlinux Gnome Shell Adjustment](https://samwhelp.github.io/archlinux-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/archlinux-gnome-shell-adjustment) |
 | [Manjaro Gnome Shell Adjustment](https://samwhelp.github.io/manjaro-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/manjaro-gnome-shell-adjustment) |
 
